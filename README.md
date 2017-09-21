@@ -9,7 +9,7 @@ The SaveGridToWorkbookEx() / SaveTableToWorkbookEx() methods were not correctly 
 
 <b>Release 27</b> is released to fix a serious bug in the SaveGridToWorkbookEx() method.  If this method was called with the freeze top row parameter set to False, then the spreadsheet would be unreadable when trying to open.  This is fixed.  Also, a suggestion was made to save the column order based on the grid display order which is also incorporated in this release.
  
-
+<b>Release 28</b> is released to fix a bug introduced by copy-n-paste from Release 27.  Wben I added the code to output a grid to a spreadsheet in the SaveGridtoWorkbook() method, I copied it from the SaveGridtoWorkbookEx() method; however, I failed to initialize a variable.  I read somewhere that most bugs are introduced by copy-n-paste and it would be better to always retype – but I usually take the copy-n-paste route…  Also, a new parameter has been added to these methods to control outputting hidden columns (see documentation).
 
 ![](XLSXWorkbook_38236)
 
