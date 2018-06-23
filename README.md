@@ -12,3 +12,8 @@ Released to check for the length of a sheet name to ensure the maximum allowed l
 ## Release 31
 
 Released to correct some identified bugs and for a new method; see the release notes for more information.
+
+
+## Written By
+
+Gregory Green
