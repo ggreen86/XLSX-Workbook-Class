@@ -17,6 +17,10 @@ Released to correct some identified bugs and for a new method; see the release n
 
 This release is a major change to the Read of the workbook and support of more workbook objects (images).  There are a number of fixes for the support of exporting a table and grid directly to a XLSX workbook.  There are a number of new methods for supporting more functionality -- See the Release notes.  Since this is a major change to this class, I am now releasing it as Beta software.  There has been a number of users besides myself that has been testing this class and I have been fixing bugs or incorporating the fixes provided into the class.
 
+## Release 32
+
+Release 32 is now being released as production and no longer BETA.  It has been several months now without any issues being reported.
+
 ## Written By
 
 Gregory Green
