@@ -21,6 +21,8 @@ This release is a major change to the Read of the workbook and support of more w
 
 Release 32 is now being released as production and no longer BETA.  It has been several months now without any issues being reported.
 
+Released 24 Feb 2021.
+
 ## Written By
 
 Gregory Green
