@@ -23,6 +23,10 @@ Release 32 is now being released as production and no longer BETA.  It has been 
 
 Released 24 Feb 2021.
 
+## Release 33 Beta
+
+Two corrections were made to the class that affects the methods SaveGridToWorkbook() and SaveGridToWorkbookEx().  The first change is the class's handling of the grid column properties for Format and InputMask.  I have tried to retain the original intent of the formatting when exporting to Excel.  So please report an issue if you find any problems when the grid column formatting is exported.  The second change involves illegal characters that are not permitted in the spreadsheet tab title which I had been checking for (the code converts illegal characters to underscore).  However, if the tab title string passed had these illegal characters encoded as an xml equilvalent then it would cause an error on trying to open the spreadsheet.  I have added additional checks to remove illegal characters if they are encoded.
+
 ## Written By
 
 Gregory Green
