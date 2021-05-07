@@ -31,6 +31,8 @@ Additional correction/enhancement made to ensure the temp directory name for the
 
 Added in this release is support for Grid Column Dynamic property settings for applying to the cell formatting.  This is only available in the method SaveGridToWorkbook() method.  Also, I have added to the class documentation bookmarks the method list in an alphabetical list, as well as, in a functional group list.
 
+I have just added Beta 7 which fixes a couple of bugs that was found.  In particular, I found a bug in the previous releases that occurred when no text was assigned to any cells (only numeric values).  The save method would remove the strings.xml from being written, but in doing so, the record pointer in an internal cursor would get moved causing the skipping of writing the first sheet.xml.  If only one sheet was added, then the resulting workbook would be in error as well.
+
 ## Written By
 
 Gregory Green
