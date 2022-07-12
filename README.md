@@ -38,7 +38,7 @@ I also added two new methods that was requested by users - GetNamedRange() and G
 <b>Beta 10 Changes</b>
 I have made changes to how the strings are being stored.  This was done to improve performance in writing to cell string values and then saving to the spreadsheet.  Please see the Release Notes for more information.  <b>Note: I have done testing but this change does affect the saving of workbooks, so please test before using.</b>  I have also fixed the support for shared formulas; again see Release Notes for more information.
 
-## Release 33 Beta
+## Release 34 Beta
 
 Bug fixes have been applied; see the Release Notes for explanations.  Also, the reading of an existing spreadsheet has been extensively reworked to increase performance.
 
