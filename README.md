@@ -10,6 +10,9 @@ Bug fixes have been applied; see the Release Notes for explanations.  Also, the 
 
 Bug fix for an obscure bug in the freeze rows/columns; see the Release Notes for explanations.  Added several methods for handling the Print Area.
 
+## Release 36
+
+Bug fix when reading an existing workbook with cell values formatted as text.  Corrected the read and write processing.
 
 ## Written By
 
