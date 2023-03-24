@@ -14,6 +14,10 @@ Bug fix for an obscure bug in the freeze rows/columns; see the Release Notes for
 
 Bug fix when reading an existing workbook with cell values formatted as text.  Corrected the read and write processing.
 
+## Release 37
+
+Bug fix for reading workbooks that do not have a defined styles.xml file included in the workbook.  See Release Notes for detailed description of fix.
+
 ## Written By
 
 Gregory Green
