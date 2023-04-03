@@ -18,6 +18,10 @@ Bug fix when reading an existing workbook with cell values formatted as text.  C
 
 Bug fix for reading workbooks that do not have a defined styles.xml file included in the workbook.  See Release Notes for detailed description of fix.
 
+## Release 38
+
+Bug fix for cell format codes using the date-time #DEFINE values and locale code.  With this release, the documentation has also been updated to include all methods in the class.  Note that the bookmarks will navigate to the page; to see the method you might have to scroll down.
+
 ## Written By
 
 Gregory Green
