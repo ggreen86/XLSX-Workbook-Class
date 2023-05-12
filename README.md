@@ -22,7 +22,7 @@ Bug fix for reading workbooks that do not have a defined styles.xml file include
 
 Bug fix for cell format codes using the date-time #DEFINE values and locale code.  With this release, the documentation has also been updated to include all methods in the class.  Note that the bookmarks will navigate to the page; to see the method you might have to scroll down.
 
-## Release 38
+## Release 39
 
 Release to add three new methods for Conditional Formatting.  This is currently in beta for feedback on implementation.  See the Release Notes and the Documentation on the three new methods.
 
