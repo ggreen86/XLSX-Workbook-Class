@@ -24,7 +24,9 @@ Bug fix for cell format codes using the date-time #DEFINE values and locale code
 
 ## Release 39
 
-Release to add three new methods for Conditional Formatting.  This is currently in beta for feedback on implementation.  See the Release Notes and the Documentation on the three new methods.
+Release to add new methods for Conditional Formatting, new methods for Table Formatting, and fixed the SetColumnBestFit() method to auto set the column width based on the cell contents.  
+
+This release is currently in beta for feedback on implementation.  See the Release Notes and the Documentation on the new methods.
 
 ## Written By
 
