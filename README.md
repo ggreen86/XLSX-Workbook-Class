@@ -26,7 +26,7 @@ Bug fix for cell format codes using the date-time #DEFINE values and locale code
 
 Release to add new methods for Conditional Formatting, new methods for Table Formatting, and fixed the SetColumnBestFit() method to auto set the column width based on the cell contents.  
 
-This release is currently in beta for feedback on implementation.  See the Release Notes and the Documentation on the new methods.
+This release is currently in beta for feedback on implementation.  See the Release Notes and the Documentation on the new methods.  I have just added Beta 3; please use this version as there is a bug in the Reading of the styles.xml that causes the numeric formatting to be lost.
 
 ## Written By
 
