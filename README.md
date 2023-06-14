@@ -36,6 +36,8 @@ Beta 5 version fixes a bug if the table name had a space in it (spaces not allow
 
 Beta 6 removed a check for the file existing on the file system before adding as a Hyperlink.  This check prevented a file link to a URL to be added as a hyperlink and is not needed.
 
+Beta 7 added the CodePage setting to the xl_sheets cursor to account for the name of the sheet tab.
+
 ## Written By
 
 Gregory Green
