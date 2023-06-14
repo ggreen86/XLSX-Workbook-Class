@@ -26,7 +26,7 @@ Bug fix for cell format codes using the date-time #DEFINE values and locale code
 
 Release to add new methods for Conditional Formatting, new methods for Table Formatting, and fixed the SetColumnBestFit() method to auto set the column width based on the cell contents.  
 
-This release is currently in beta for feedback on implementation.  See the Release Notes and the Documentation on the new methods.  I have just added Beta 3; please use this version as there is a bug in the Reading of the styles.xml that causes the numeric formatting to be lost.
+This release is currently in beta for feedback on implementation.  See the Release Notes and the Documentation on the new methods.  Beta 3 version fixes a bug in the Reading of the styles.xml that caused the numeric formatting to be lost.  Beta 4 fixed the SetColumnBestFit() method to now auto set the column widths based on the widest cell entry.  Beta 5 version fixes a bug if the table name had a space in it (spaces not allowed).  Beta 5 also adds functionality to the SaveGridToWorkbookEx() method to defining a table format to be applied (new parameter).
 
 ## Written By
 
