@@ -38,6 +38,8 @@ Beta 6 removed a check for the file existing on the file system before adding as
 
 Beta 7 added the CodePage setting to the xl_sheets cursor to account for the name of the sheet tab.
 
+Beta 8 enhances the SaveTableToWorkbookEx() by adding the capability for best-fit columns and table formatting.
+
 ## Written By
 
 Gregory Green
