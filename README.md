@@ -40,6 +40,8 @@ Beta 7 added the CodePage setting to the xl_sheets cursor to account for the nam
 
 Beta 8 enhances the SaveTableToWorkbookEx() by adding the capability for best-fit columns and table formatting.
 
+Beta 9 corrects a bug in the SaveTableToWorkbookEx() that prevented adding sheets to the workbook.  Also, a new Report Listener class has been added to create xlsx files directly from a VFP Report definition.  See the Release Notes for more information.
+
 ## Written By
 
 Gregory Green
