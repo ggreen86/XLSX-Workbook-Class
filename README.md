@@ -44,6 +44,8 @@ Beta 9 corrects a bug in the SaveTableToWorkbookEx() that prevented adding sheet
 
 Beta 10 I have changed the code for the determination of the row placement during the export to XLSX in the listener class which will hopefully accommodate any report layout.  The page footer is now also being added to the xlsx sheets in the page footer setup.  Also, I have added a way for me to debug reports that users report having issues in generating the xlsx file.  A new property was added to facilitate this - DebugMode.  This is set to False by default.  Setting this to True before running the report will generate a DBF table that contains the report objects that are rendered by the report engine.  I can use this table and the FRX file to now debug the cause for the failure to generate a XLSX file without errors.  Note that the report object table contains the actual report field values; if any of these field values contain sensitive information, please reset the value by changing them.  Please see the main.prg file contained in the zip file for the properties that can be set for exporting to XLSX format.
 
+Beta 11 I have added a new parameter to the AddSheet method for the support of Right-to-Left sheet layout.  Please see the Release Notes for more information.
+
 ## Written By
 
 Gregory Green
