@@ -48,6 +48,8 @@ Beta 11 I have added a new parameter to the AddSheet method for the support of R
 
 Beta 12 I have added a new method for setting the sheet's Right-To-Left property setting.  Also, the SaveGridToWorkbook(), SaveGridToWorkbookEx(), SaveTableToWorkbook(), and SaveTableToWorkbookEx() methods have a new parameter added to support the Right-To-Left setting.  A bug was identified in the DeleteColumn() method by RezaUser -- this has been corrected.
 
+Beta 13 I have added support for displaying or hidding zero cell values.  Please see the Release Notes for more information.
+
 ## Written By
 
 Gregory Green
