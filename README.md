@@ -46,6 +46,8 @@ Beta 10 I have changed the code for the determination of the row placement durin
 
 Beta 11 I have added a new parameter to the AddSheet method for the support of Right-to-Left sheet layout.  Please see the Release Notes for more information.
 
+Beta 12 I have added a new method for setting the sheet's Right-To-Left property setting.  Also, the SaveGridToWorkbook(), SaveGridToWorkbookEx(), SaveTableToWorkbook(), and SaveTableToWorkbookEx() methods have a new parameter added to support the Right-To-Left setting.  A bug was identified in the DeleteColumn() method by RezaUser -- this has been corrected.
+
 ## Written By
 
 Gregory Green
