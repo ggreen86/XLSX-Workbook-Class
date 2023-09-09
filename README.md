@@ -52,6 +52,8 @@ Beta 13 - I have added support for displaying or hidding zero cell values.  Plea
 
 Beta 14 - Corrections to the listener class for column placement and cell formatting.
 
+I am now releasing R39 as production ready.  In this release there is one additional bug that is fixed that affected opening existing workbooks that were not CodePage=1252; see the Release Notes for more information.
+
 ## Written By
 
 Gregory Green
