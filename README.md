@@ -8,7 +8,7 @@ Minor update to allow the GetCellValue() method to retrieve the cell value for a
 
 ## Release 41
 
-Release 41 is released to correct defects reported by users in the issues log.  No new functionality has been introduced.  However, some existing methods have been enhanced to either correct behavior, add additional capability, or faster performance.  This is being released as Beta 5 (there were four internal beta versions before this one).  See the Release Notes for detailed changes.
+Release 41 is released to correct defects reported by users in the issues log.  No new functionality has been introduced.  However, some existing methods have been enhanced to either correct behavior, add additional capability, or faster performance.  See the Release Notes for detailed changes.  Now released as production as no issues have been received and I have not experienced any problems.
 
 ## Written By
 
