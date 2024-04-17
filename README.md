@@ -14,6 +14,8 @@ Release 41 is released to correct defects reported by users in the issues log.  
 
 Release 42 is released to add a new method for direct output a table to xlxs file with columns/rows transposed.  Also, a bug is fixed that caused a loss of formatting for rotated text, vertical & horizontal text cell alignment, cell text indent, and cell text word-wrapping.  See Release Notes for more information.  Released with no further beta testing to production.
 
+I also added a new property, TemporaryPath, that defaults to =SYS(2023).  You can set this another file location of your choice.  All the class temporary files will then be written to that location instead of the system TEMP directory.  I missed adding this to the documentation.
+
 ## Written By
 
 Gregory Green
