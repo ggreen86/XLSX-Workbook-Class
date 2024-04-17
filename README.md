@@ -10,6 +10,10 @@ Minor update to allow the GetCellValue() method to retrieve the cell value for a
 
 Release 41 is released to correct defects reported by users in the issues log.  No new functionality has been introduced.  However, some existing methods have been enhanced to either correct behavior, add additional capability, or faster performance.  See the Release Notes for detailed changes.  Now released as production as no issues have been received and I have not experienced any problems.
 
+## Release 42
+
+Release 42 is released to add a new method for direct output a table to xlxs file with columns/rows transposed.  Also, a bug is fixed that caused a loss of formatting for rotated text, vertical & horizontal text cell alignment, cell text indent, and cell text word-wrapping.  See Release Notes for more information.  Released with no further beta testing to production.
+
 ## Written By
 
 Gregory Green
