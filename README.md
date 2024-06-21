@@ -16,6 +16,10 @@ Release 42 is released to add a new method for direct output a table to xlxs fil
 
 I also added a new property, TemporaryPath, that defaults to =SYS(2023).  You can set this another file location of your choice.  All the class temporary files will then be written to that location instead of the system TEMP directory.  I missed adding this to the documentation.
 
+## Release 43
+
+Release 43 is released to add methods for read-only access to a workbook (very fast access), fix some bugs, and speed improvements to opening workbooks to the method OpenXlsxWorkbook().  The documentation has been updated with the new methods added; however, the bookmarks have not yet been added for quick access.  Please see the Release Notes and full documentation for more information.
+
 ## Written By
 
 Gregory Green
