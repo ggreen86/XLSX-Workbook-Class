@@ -20,6 +20,10 @@ I also added a new property, TemporaryPath, that defaults to =SYS(2023).  You ca
 
 Release 43 is released to add methods for read-only access to a workbook (very fast access), fix some bugs, and speed improvements to opening workbooks to the method OpenXlsxWorkbook().  The documentation has been updated with the new methods added; however, the bookmarks have not yet been added for quick access.  Please see the Release Notes and full documentation for more information.
 
+## Release 44
+
+Release 44 is released to correct an oversight on my part in the new method OpenXlsxWorkbookEx().  I missed the processing of cells with in-line string values and cells with formulas.  Also, I missed converting text strings from the xml encoded value to the normal value.  There is also change in the parameter line for the method OpenXlsxWorkbookEx().  Please see the Release Notes and full documentation for more information.
+
 ## Written By
 
 Gregory Green
