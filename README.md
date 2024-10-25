@@ -24,6 +24,10 @@ Release 43 is released to add methods for read-only access to a workbook (very f
 
 Release 44 is released to correct an oversight on my part in the new method OpenXlsxWorkbookEx().  I missed the processing of cells with in-line string values and cells with formulas.  Also, I missed converting text strings from the xml encoded value to the normal value.  There is also change in the parameter line for the method OpenXlsxWorkbookEx().  Please see the Release Notes and full documentation for more information.
 
+## Release 45
+
+Release 45 is released as a BETA version.  This version includes some bug fixes that were reported by users via the Issues, adds enhancements to some existing methods, and adds new methods for additional features.  The additional features includes the ability to define column formulas when exporting from grids and being able to apply cell formatting based on built-in standard Styles.   Please see the Release Notes and full documentation for more information.
+
 ## Written By
 
 Gregory Green
