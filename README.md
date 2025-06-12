@@ -30,7 +30,7 @@ Release 45 is released.  This version includes some bug fixes that were reported
 
 ## Release 46
 
-Release 46 is released.  This version adds enhancements to existing methods; please see the Release Notes for details.  Release removed due to insufficient regression testing.
+Release 46 is released.  This version adds enhancements to existing methods; please see the Release Notes for details.  /b Release removed due to insufficient regression testing.
 
 ## Release 47
 
