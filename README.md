@@ -28,9 +28,9 @@ Release 44 is released to correct an oversight on my part in the new method Open
 
 Release 45 is released.  This version includes some bug fixes that were reported by users via the Issues, adds enhancements to some existing methods, and adds new methods for additional features.  The additional features includes the ability to define column formulas when exporting from grids and being able to apply cell formatting based on built-in standard Styles.   Please see the Release Notes and full documentation for more information.
 
-## Release 46
+## Release 46 - Release removed due to insufficient regression testing
 
-Release 46 is released.  This version adds enhancements to existing methods; please see the Release Notes for details.  /b Release removed due to insufficient regression testing.
+Release 46 is released.  This version adds enhancements to existing methods; please see the Release Notes for details.  
 
 ## Release 47
 
