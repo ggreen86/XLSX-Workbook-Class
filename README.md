@@ -36,6 +36,10 @@ Release 46 is released.  This version adds enhancements to existing methods; ple
 
 Release 47 is released.  Corrected logic error in setting the cell merging calculation for the report listener.
 
+## Release 48
+
+Release 48 is released for an enhancement to the method SaveTableToWorkbookEx() in order to allow for creating spreadsheets from tables with a row count that exceeds the sheet row limit.  See Release Notes for more information.
+
 ## Written By
 
 Gregory Green
