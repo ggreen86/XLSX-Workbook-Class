@@ -40,6 +40,10 @@ Release 47 is released.  Corrected logic error in setting the cell merging calcu
 
 Release 48 is released for an enhancement to the method SaveTableToWorkbookEx() in order to allow for creating spreadsheets from tables with a row count that exceeds the sheet row limit.  See Release Notes for more information.
 
+## Release 49
+
+Release 49 is released to provide a new method for adding a sheet to an existing workbook file; see method SaveTableToWorkbookSheetEx().  Also, I have added a "fudge" factor for when calculating the best-fit for columns containing numeric values in an attempt to address two reported issues.  See Release Notes for more information.
+
 ## Written By
 
 Gregory Green
