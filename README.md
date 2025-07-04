@@ -44,6 +44,10 @@ Release 48 is released for an enhancement to the method SaveTableToWorkbookEx() 
 
 Release 49 is released to provide a new method for adding a sheet to an existing workbook file; see method SaveTableToWorkbookSheetEx().  Also, I have added a "fudge" factor for when calculating the best-fit for columns containing numeric values in an attempt to address two reported issues.  Additionally, the documentation has been updated for the new method and some typos corrected.  See Release Notes for more information.
 
+## Release 50
+
+Release 50 is released to correct a bug that was discovered when assigning table format to a cell range.  The table name failed the name check when being opened by Excel and caused a recover error.  This is now corrected.  Please see the Release Notes for more information.
+
 ## Written By
 
 Gregory Green
