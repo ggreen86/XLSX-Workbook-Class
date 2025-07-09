@@ -48,6 +48,10 @@ Release 49 is released to provide a new method for adding a sheet to an existing
 
 Release 50 is released to correct a bug that was discovered when assigning table format to a cell range.  The table name failed the name check when being opened by Excel and caused a recover error.  This is now corrected.  Please see the Release Notes for more information.
 
+## Release 51
+
+Release 51 is released to add a new property that is used in the calculation of column best fit for columns containing numeric values.  See the Release Notes for more information.
+
 ## Written By
 
 Gregory Green
