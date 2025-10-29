@@ -52,6 +52,10 @@ Release 50 is released to correct a bug that was discovered when assigning table
 
 Release 51 is released to add a new property that is used in the calculation of column best fit for columns containing numeric values.  See the Release Notes for more information.
 
+## Release 52 BETA
+
+Release 52 is released as a beta to fix some bugs and compatibility issues with Openpyxl.  Changes were made to streamline when processing the cell values when opening a spreadsheet and how the CodePage property is implemented.  See the Release Notes for more information.
+
 ## Written By
 
 Gregory Green
