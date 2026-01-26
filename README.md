@@ -54,7 +54,7 @@ Release 51 is released to add a new property that is used in the calculation of 
 
 ## Release 52
 
-Release 52 is released as a beta to fix some bugs and compatibility issues with Openpyxl.  Changes were made to streamline when processing the cell values when opening a spreadsheet and how the CodePage property is implemented.  See the Release Notes for more information.
+Release 52 is released to fix some bugs and compatibility issues with Openpyxl.  Changes were made to streamline when processing the cell values when opening a spreadsheet and how the CodePage property is implemented.  See the Release Notes for more information.
 
 ## Written By
 
