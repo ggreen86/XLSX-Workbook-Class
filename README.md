@@ -60,6 +60,10 @@ Release 52 is released to fix some bugs and compatibility issues with Openpyxl. 
 
 Release 53 is released to fix a bug affecting the cell alignment for grids using dynamic properties.  See the Release Notes for more information.
 
+## Release 54
+
+Release 54 is released to fix a number of bugs.  See the Release Notes for more information.
+
 ## Written By
 
 Gregory Green
