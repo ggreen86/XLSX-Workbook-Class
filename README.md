@@ -28,7 +28,7 @@ Release 55 - not released.
 
 ## Release 56
 
-Release 56 - **RELEASED IN ALPHA**.  This is being released to allow users to review the changes made for the InsertRow and InsertColumn methods.  The InsertCell method **has not yet been updated**.  These methods for inserting was not accounting for all the possible impacts due to features being added after these methods were initially written.  I am still working on the impact to formulas for inserting lines/columns.  If there are formulas that reference columns or rows that are affected by an insert, this is **currently** not being updated.  I have partial code written that will parse the formulas into the individual tokens.  The current implementation of the InsertRow and InsertColumn should update everything except for formulas.
+Release 56 - **RELEASED IN ALPHA**.  This is being released to allow users to review the changes made for the InsertRow and InsertColumn methods.  The InsertCell method **has not yet been updated**.  These methods for inserting was not accounting for all the possible impacts due to features being added after these methods were initially written.  I am still working on the impact to formulas for inserting rows/columns.  If there are formulas that reference columns or rows that are affected by an insert, this is **currently** not being updated.  I have partial code written that will parse the formulas into the individual tokens.  The current implementation of the InsertRow and InsertColumn should update everything except for formulas.
 
 There are other updates/corrections -- see the included Release Notes.
 
