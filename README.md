@@ -30,6 +30,8 @@ Release 55 - not released.
 
 Release 56 - **RELEASED IN BETA**.  This is being released to allow users to review the changes made for the InsertRow, InsertColumn, InsertCell, DeleteRow, DeleteColumn, and DeleteCell methods.  These methods for inserting/deleting was not accounting for all the possible impacts due to features being added after these methods were initially written.  These methods have been tested by me and need to be tested by the larger community for bugs/problems.
 
+8/5/2026 - updated beta file for a few minor bug fixes (typos).
+
 There are other updates/corrections -- see the included Release Notes.
 
 ## Written By
